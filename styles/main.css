@@ -3,9 +3,60 @@
 
 body {
     margin:auto;
+    position:absolute;
 }
 
 main {
+    width:100%;
+    margin:auto;
+}
+
+header {
+    box-shadow:0 4px 2px -2px #ccc;
+    position:relative;
+    width:100%;
+}
+
+header .header {
     width:938px;
     margin:auto;
+}
+
+header figure img {
+    width:185px;
+}
+
+header nav {
+    position:relative;
+    margin:auto;
+}
+
+header nav ul {
+    text-align:center;
+}
+
+header nav li {
+    display:inline;
+    padding:12px;
+}
+
+header aside {
+    float:right;
+}
+
+.Hero {
+    background-image:url(../images/custom-experience.jpg);
+    background-size:cover;
+    height:400px;
+    width:100%;
+    display:block;
+}
+
+.Hero-sliderNav {
+    counter-reset:top;
+}
+
+.Hero-sliderNav a:before {
+    content:counter(top);
+    counter-increment:top;
 }
