@@ -1,0 +1,10 @@
+/*@import "../3rd-parties/normalize/normalize.css";*/
+@import "base.css";
+
+body {
+  margin:auto;
+}
+
+main {
+  width:938px;
+}
